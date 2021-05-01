@@ -1,1 +1,109 @@
+/* This is the style.css for the "About-Me" webpage (index.html portfolio.html and contact.html) */
+
+/* html {
+    position: relative;
+    min-height: 100%;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&amp;display=swap');
+
+body {
+    width: 100%;
+    background-image: url(./image/vector.jpg);
+    background-attachment: fixed; 
+    background-repeat: repeat-y;
+    padding-top: 50px;
+    margin-bottom: 75px;
+
+}
+
+.nav-text {
+    font-family: concert one;
+    font-size: x-large;
+
+}
+
+article {
+    background-color: gainsboro;
+     
+}
+
+.bord {
+    border: 3px solid darkgray;
+}
+
+h5 {
+    font-family: concert one;
+    color: rgb(23, 167, 23);
+   
+}
+
+.title {
+    font-size: 42px; 
+
+}
+
+.img-thumbnail {
+    width: 250px;
+    background-color: gray; 
+    float: left;
+
+}
+
+p {
+    font-family: concert one;
+    font-size: medium;
+    color: rgb(66, 66, 66);
+
+}
+
+.ico {
+    width: 40px;
+    height: auto;
+}
+
+.bs-link {
+    color: rgb(23, 167, 23);
+    text-decoration: underline;
+    
+}
+
+/* Pseudo Classes */
+
+.nav-text:hover {
+    background-color: darkgray;
+    
+}
+
+.nav-text:active {
+    background-color: rgb(23, 167, 23);
+}
+
+img:hover {
+    background-color: rgb(23, 167, 23);
+
+}
+
+img:active {
+    background-color: rgb(196, 255, 196);
+
+}
+
+.bs-link:hover {
+    color: aqua;
+    text-decoration: underline;
+
+}
+
+.bs-link:active {
+    color: royalblue;
+
+}
+
+/* Media Queries */
+
+/* @media screen and (min-width: 768px) { 
+    body {
+        
+    }
+}  */
 

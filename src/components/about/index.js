@@ -2,12 +2,12 @@ import small from './images/small.jpg'
 
 function About() {
     return (
-      <div className="article">
-                  <div className="media-body m-1">
+      <article className="media m-5 mt-5 mb-4 bord">
+          <div className="media-body m-1">
             <div className="container">
                 <div className="row">
                   <div className="col-sm-12">
-                    <h5 className="mt-4 mb-4">About Me</h5>
+                    <h5 className="title mt-4 mb-4">About Me</h5>
                   </div>
                 </div>
 
@@ -25,7 +25,7 @@ function About() {
                 </div>                
              </div>
          </div>
-      </div>
+      </article>
     );
   }
   

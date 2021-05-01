@@ -1,15 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 import Header from './header/header';
-import About from './about/index';
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <About></About>
-    </div>
+    <Header />
   );
 }
 
