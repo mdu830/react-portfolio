@@ -21,10 +21,10 @@ function Contact() {
               </div>
               <div className="row">
                 <div className="col-6">
-                  <h6 className="m-5">Email: <a className="bs-link" href="mailto:mdu830@yahoo.com">mdu830@yahoo.com</a></h6>
+                  <h6 className="m-5">Email: <a className="bsLink" href="mailto:mdu830@yahoo.com">mdu830@yahoo.com</a></h6>
                 </div>
                 <div className="col-6">
-                  <h6 className="m-5">Phone: <a href="Phone Number" className="bs-link">(252) 207-7476</a></h6>
+                  <h6 className="m-5">Phone: <a href="Phone Number" className="bsLink">(252) 207-7476</a></h6>
                 </div>
               </div>     
             </div>
