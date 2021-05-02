@@ -12,9 +12,9 @@ function Portfolio() {
               <h5 className="title mt-4 mb-4">Portfolio</h5>
             </div>
           </div>
-          {portfolioItems && portfolioItems.map((i, number) => {
+          {portfolioItems && portfolioItems.map((i, propKey) => {
             return (
-             <Project key={number} image={i.image} pTag1={i.pTag1} pTag2={i.pTag2} link={i.link} linkText={i.linkText} pTag3={i.pTag3} github={i.github}/>
+             <Project key={propKey} image={i.image} pTag1={i.pTag1} pTag2={i.pTag2} link={i.link} linkText={i.linkText} pTag3={i.pTag3} github={i.github}/>
             )
           }
           )}
@@ -25,5 +25,3 @@ function Portfolio() {
   )};
 
 export default Portfolio;
-
-// pTag1={i.pTag1} pTag2={i.pTag2} link={i.link} pTag3={i.pTag3} github={i.github}

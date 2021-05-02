@@ -2,11 +2,6 @@ import React from 'react'
 
 const Project = ({image, pTag1, pTag2, link, linkText, pTag3, github}) => {
     return (
-        // <div classNameName=" col-12 card">
-        //     <div classNameName="image-project col-lg">
-        //         <div classNameName="imgThumbnail"><img alt="" src={image} /></div>
-        //     </div>
-        // </div>
         <div className="row bord mt-2 mb-1">
             <div className="col-lg">
                 <img src={image} alt="" className="img-fluid imgThumbnail w-50 h-auto ml-2 mt-3 mr-2 mb-3" />
