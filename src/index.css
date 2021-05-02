@@ -8,7 +8,7 @@
 
 body {
     width: 100%;
-    background-image: url(assets/image/vector.jpg);
+    background-image: url(./images/vector.jpg);
     background-attachment: fixed; 
     background-repeat: repeat-y;
     padding-top: 50px;
@@ -42,7 +42,7 @@ h5 {
 
 }
 
-.img-thumbnail {
+.imgThumbnail {
     width: 250px;
     background-color: gray; 
     float: left;
@@ -61,7 +61,7 @@ p {
     height: auto;
 }
 
-.bs-link {
+.bsLink {
     color: rgb(23, 167, 23);
     text-decoration: underline;
     

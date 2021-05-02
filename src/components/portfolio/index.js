@@ -2,6 +2,7 @@ import portfolioItems from './portfolioItems'
 import Project from './projects'
 
 function Portfolio() {
+  console.log(portfolioItems);
   return (
     <article className="media m-5 mt-5 mb-4 bord">
       <div className="media-body m-1">
@@ -11,24 +12,16 @@ function Portfolio() {
               <h5 className="title mt-4 mb-4">Portfolio</h5>
             </div>
           </div>
-          {portfolioItems && portfolioItems.map((i) => 
-          <Project image={i.image}/>
+          {portfolioItems && portfolioItems.map((i, number) => {
+            return (
+             <Project key={number} image={i.image} pTag1={i.pTag1} pTag2={i.pTag2} link={i.link} linkText={i.linkText} pTag3={i.pTag3} github={i.github}/>
+            )
+          }
           )}
         </div>
       </div>
     </article>
 
-    // <div className="row">
-    //   <div className="col-12">
-    //     <div className="row bord mb-2">
-    //       <div className="col-lg">
-    //       {portfolioItems && portfolioItems.map((i) => 
-    //       <Project portfolioItems={i.portfolioItems}/>
-    //       )}
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   )};
 
 export default Portfolio;
