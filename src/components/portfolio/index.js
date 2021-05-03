@@ -1,9 +1,9 @@
 import portfolioItems from './portfolioItems'
 import Project from './projects'
 import styled, { keyframes } from 'styled-components'
-import { slideInUp } from 'react-animations'
+import { zoomIn } from 'react-animations'
 
-const Animate = styled.div`animation: 1s ${keyframes`${slideInUp}`} `;
+const Animate = styled.div`animation: 1s ${keyframes`${zoomIn}`} `;
 
 function Portfolio() {
   console.log(portfolioItems);
