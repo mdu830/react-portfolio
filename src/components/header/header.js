@@ -11,9 +11,6 @@ function Header() {
                 </button>
                 <nav className="collapse navbar-collapse text-right" id="navbarNavDropdown">
                     <ul className="navbar-nav ml-auto pl-0">
-                    {/* <li className="nav-item">
-                        <div className="nav-link navText" id="resumeBtn"><a href="./assets/Resume.pdf" target="_blank" class="nav-link nav-text">Resume</a></div>
-                    </li> */}
                     <li className="nav-item">
                         <div className="nav-link navText" id="portfolioBtn"><a target="_blank" href="./assets/Resume.pdf">Resume</a></div>
                     </li>

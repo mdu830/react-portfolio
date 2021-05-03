@@ -9,6 +9,7 @@ import Portfolio from './components/portfolio/index'
 import Contact from './components/contact'
 
 import Header from './components/header/header';
+import Footer from './components/footer/footer'
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <About />
       </Route>
     </Router>
+    <Footer />
 
    </>
   );
