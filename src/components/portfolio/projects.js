@@ -4,7 +4,7 @@ const Project = ({image, pTag1, pTag2, link, linkText, pTag3, github}) => {
     return (
         <div className="row bord mt-2 mb-1">
             <div className="col-lg">
-                <img src={image} alt="" className="img-fluid imgThumbnail w-50 h-auto ml-2 mt-3 mr-2 mb-3" />
+                <img src={image} alt="" className="img-fluid img-thumbnail w-50 h-auto ml-2 mt-3 mr-2 mb-3" />
             </div>
             <div className="col-lg mr-4">
                 <p className="mt-3">{pTag1}</p>
