@@ -1,11 +1,11 @@
-
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <>
             <div className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 
-                <div className="nav-link navText" id="aboutMeBtn" ><a href="/about">Mitchell Duncan</a></div>
+                <div className="nav-link navText" id="aboutMeBtn" ><Link to="/about">Mitchell Duncan</Link></div>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -15,10 +15,10 @@ function Header() {
                         <div className="nav-link navText" id="portfolioBtn"><a target="_blank" href="./assets/Resume.pdf">Resume</a></div>
                     </li>
                     <li className="nav-item">
-                        <div className="nav-link navText" id="portfolioBtn"><a href="/portfolio">Portfolio</a></div>
+                        <div className="nav-link navText" id="portfolioBtn"><Link to="/portfolio">Portfolio</Link></div>
                     </li>
                     <li className="nav-item">
-                        <div className="nav-link navText" id="contactBtn"><a href="/contact">Contact</a></div>
+                        <div className="nav-link navText" id="contactBtn"><Link to="/contact">Contact</Link></div>
                     </li>
                     </ul>
                 </nav>

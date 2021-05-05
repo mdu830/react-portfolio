@@ -10,17 +10,13 @@ import Contact from './components/contact'
 
 import Header from './components/header/header';
 import Footer from './components/footer/footer'
-import { createBrowserHistory } from "history";
-
-
-const history = createBrowserHistory();
 
 
 function App() {
   return (
     <>
     <Header />
-    <Router history={history}>
+    <Router>
       <Route exact path="/about">
           <About />
       </Route>
@@ -31,9 +27,6 @@ function App() {
           <Contact />
       </Route>
       <Route exact path="/">
-          <About />
-      </Route>
-      <Route exact path="/react-portfolio">
           <About />
       </Route>
     </Router>

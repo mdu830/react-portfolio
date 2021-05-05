@@ -14,9 +14,9 @@ function Contact() {
                 <h5 className="title mt-4 mb-4">Contact</h5>
               </div>
               <div className="col-3">
-                <a href="https://github.com/mdu830"><img className="ico mt-3" alt="Github" src="assets/icons/github.png"></img></a>
-                <a href="https://www.linkedin.com/in/mitchell-duncan-a466501bb"><img className="ico mt-3" alt="LinkedIn" src="assets/icons/linkedin.png"></img></a>
-                <a href="mailto:mdu830@yahoo.com"><img className="ico mt-3" alt="Email" src="assets/icons/email.png"></img></a>
+                <a href="https://github.com/mdu830"><img className="ico mt-3" alt="Github" src={`${process.env.PUBLIC_URL}/assets/icons/github.png`}></img></a>
+                <a href="https://www.linkedin.com/in/mitchell-duncan-a466501bb"><img className="ico mt-3" alt="LinkedIn" src={`${process.env.PUBLIC_URL}/assets/icons/linkedin.png`}></img></a>
+                <a href="mailto:mdu830@yahoo.com"><img className="ico mt-3" alt="Email" src={`${process.env.PUBLIC_URL}/assets/icons/email.png`}></img></a>
               </div>
             </div>
             <div className="row">
