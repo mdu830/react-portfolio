@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {
   BrowserRouter as Router,
-  Route
+  Route 
 } from "react-router-dom";
 import About from './components/about/index';
 import Portfolio from './components/portfolio/index'
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
 
-    <Router>
+    <Router basename="/react-portfolio">
     <Header />
       <Route exact path="/about">
           <About />
