@@ -1,6 +1,60 @@
 
 const portfolioItems = [
     {
+        image: "/images/dayPlanner.png",
+        pTag1: "This is a nice Day-Planner where I utilized jQuery and Local storage.",
+        pTag2: "Here is a link to the ",
+        link: "https://mdu830.github.io/Day-Planner/", 
+        linkText: "Day-Planner",
+        pTag3: "Github repository: ",
+        github: "https://github.com/mdu830/Day-Planner"
+    },
+    {
+        image: "/images/teamProfileGen.gif",
+        pTag1: "The Team Profile Generator is a node.js application that helps you generate a team profile (in html) with individual employee information on each card.",
+        pTag2: "",
+        link: "",
+        linkText: "",
+        pTag3: "Github repository: ",
+        github: "https://github.com/mdu830/Team-Profile-Generator"
+    },
+    {
+        image: "/images/eatdaburger.gif",
+        pTag1: "Eat Da Burger is a web application (deployed on Heroku) that utilizes Express, mySQL, orm, Handlebars, and Node.js",
+        pTag2: "Here is a link to ",
+        link: "https://eat-da-booger.herokuapp.com/burgers",
+        linkText: "Eat-Da-Burger",
+        pTag3: "Github repository: ",
+        github: "https://github.com/mdu830/eat-da-burger"
+    },
+    {
+        image: "/images/weatherDashboard.png",
+        pTag1: "This is an easy to use Weather-Dashboard I made. Using the Open Weather Map API to gather weather information. Other technologies used: Javascript, jQuery, HTML, CSS, Bootstrap, Google Fonts.",
+        pTag2: "Here is a link to the ",
+        link: "https://mdu830.github.io/Weather-Dashboard/",
+        linkText: "Weather Dashboard",
+        pTag3: "Github repository: ",
+        github: "https://github.com/mdu830/Weather-Dashboard"
+    },
+    {
+        image: "/images/noteTaker.gif",
+        pTag1: "This is a simple Note Taker application that uses node js and express to store and retrieve notes from a heroku server.",
+        pTag2: "Here is a link to ",
+        link: "https://stark-sierra-82180.herokuapp.com/",
+        linkText: "Note Taker",
+        pTag3: "Github repository: ",
+        github: "https://github.com/mdu830/note-taker"
+    },
+    {
+        image: "/images/workoutTracker.gif",
+        pTag1: "This application helps you keep track of all your exercises with a graph that summarizes your weekly workouts. ",
+        pTag2: "Here is a link to ",
+        link: " https://afternoon-cove-01786.herokuapp.com/",
+        linkText: "Workout-Tracker",
+        pTag3: "Github repository: ",
+        github: "https://github.com/mdu830/workout-tracker"
+    },
+    {
         image: "/images/passwordGen.png",
         pTag1: "This is a random password generator I made with vanilla Javascript, HTML, and CSS",
         pTag2: "Here is a link to the ",
@@ -19,24 +73,6 @@ const portfolioItems = [
         github: "https://github.com/mdu830/CodingQuizGame"
     },
     {
-        image: "/images/dayPlanner.png",
-        pTag1: "This is a nice Day-Planner where I utilized jQuery and Local storage.",
-        pTag2: "Here is a link to the ",
-        link: "https://mdu830.github.io/Day-Planner/", 
-        linkText: "Day-Planner",
-        pTag3: "Github repository: ",
-        github: "https://github.com/mdu830/Day-Planner"
-    },
-    {
-        image: "/images/weatherDashboard.png",
-        pTag1: "This is an easy to use Weather-Dashboard I made. Using the Open Weather Map API to gather weather information. Other technologies used: Javascript, jQuery, HTML, CSS, Bootstrap, Google Fonts.",
-        pTag2: "Here is a link to the ",
-        link: "https://mdu830.github.io/Weather-Dashboard/",
-        linkText: "Weather Dashboard",
-        pTag3: "Github repository: ",
-        github: "https://github.com/mdu830/Weather-Dashboard"
-    },
-    {
         image: "/images/readmeGen.gif",
         pTag1: "This is a small node.js Readme Generator designed to help developers quickly generate a quality readme markdown for their projects.",
         pTag2: "",
@@ -44,24 +80,6 @@ const portfolioItems = [
         linkText: "",
         pTag3: "Github repository: ",
         github: "https://github.com/mdu830/Readme-Generator"
-    },
-    {
-        image: "/images/teamProfileGen.gif",
-        pTag1: "The Team Profile Generator is a node.js application that helps you generate a team profile (in html) with individual employee information on each card.",
-        pTag2: "",
-        link: "",
-        linkText: "",
-        pTag3: "Github repository: ",
-        github: "https://github.com/mdu830/Team-Profile-Generator"
-    },
-    {
-        image: "/images/noteTaker.gif",
-        pTag1: "This is a simple Note Taker application that uses node js and express to store and retrieve notes from a heroku server.",
-        pTag2: "Here is a link to ",
-        link: "https://stark-sierra-82180.herokuapp.com/",
-        linkText: "Note Taker",
-        pTag3: "Github repository: ",
-        github: "https://github.com/mdu830/note-taker"
     },
     {
         image: "/images/employeeTracker.gif",
@@ -73,13 +91,26 @@ const portfolioItems = [
         github: "https://github.com/mdu830/employee-tracker"
     },
     {
-        image: "/images/eatdaburger.gif",
-        pTag1: "Eat Da Burger is a web application (deployed on Heroku) that utilizes Express, mySQL, orm, Handlebars, and Node.js",
+        image: "/images/budgetTracker.gif",
+        pTag1: "This application helps you to keep track of your budget online and off. While offline your transactions are stored in the indexDB of your web browser. Then when you are connected to the internet again, the stored transactions are automatically updated to a mongoDB Atlas database. ",
         pTag2: "Here is a link to ",
-        link: "https://eat-da-booger.herokuapp.com/burgers",
-        linkText: "Eat-Da-Burger",
+        link: " https://stormy-mesa-84948.herokuapp.com/",
+        linkText: "Budget-Tracker",
         pTag3: "Github repository: ",
-        github: "https://github.com/mdu830/eat-da-burger"
+        github: "https://github.com/mdu830/budget-tracker"
+
+
+    },
+    {
+        image: "/images/employeeDirectory.gif",
+        pTag1: "This is a React application that allows managers to sort though an API of their employees, and help them find their information quickly. ",
+        pTag2: "Here is a link to ",
+        link: " https://mdu830.github.io/employee-directory/",
+        linkText: "Employee-Directory",
+        pTag3: "Github repository: ",
+        github: "https://github.com/mdu830/employee-directory"
+
+
     },
     {
         image: "/images/travelBuddy.png",
@@ -109,12 +140,6 @@ const portfolioItems = [
         pTag2: "Here is an example video from a test flight we did: ",
         link:  "https://youtu.be/pbIMcGK4tOE",
         linkText: "video",
-    },
-    {
-        image: "/images/small-quadcopter.jpeg",
-        pTag1: "This the small FPV model I designed and put into production earlier this year. They come with everything you need to get started in FPV and are ready to fly out of the box!",
-        pTag2: "",
-        link: "", 
     },
     {
         image: "/images/3D-printers.jpeg",

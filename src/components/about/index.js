@@ -22,10 +22,15 @@ function About() {
               </div>
 
               <div className="col-md-8 mb-5">
-                <p>I am a student in the UNC Programming Bootcamp course.</p>
-                <p>I currently design, build, fly and sell drones online. It is one of the most rewarding feelings to fly your projects after they have been completed.</p>
-                <p>Along with building drones, I also enjoy 3D Printing my autocad designs.</p>
-                <p>I also work on various other electronic devices includes: PC repair, Iphone and Android repair, and Network penetration testing.</p>
+                <h3>Full Stack Web Developer</h3>
+                <p>
+                  Full stack web developer, proficient in front-end and back-end web development to
+                  provide an improved end-user experience with web-application and other software
+                  platforms. Earned a certificate in Full Stack Web Development from University of North
+                  Carolina, Chapel Hill Programming Bootcamp. Innovative problem-solver who is
+                  passionate about developing apps focused on quality end-user experience, along with,
+                  more efficient application delivery.
+                </p>
               </div>
             </div>
           </div>
