@@ -1,6 +1,6 @@
-![demo1](/assets/images/demo.png)
+# React Portfolio
 
-# React Porfolio
+![demo1](/public/assets/demo.png)
 
 ![license badge](https://img.shields.io/github/license/mdu830/react-portfolio?color=green)
 
@@ -9,10 +9,6 @@
 <ul>
     This is an updated version of my porfolio/about page using React.
 </ul>
-
-### Table of Contents
-* [Contributors](#contributors)
-* [License](#License)
 
 ### License
 <ul>
