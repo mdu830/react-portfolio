@@ -153,28 +153,28 @@ const portfolioItems = [
 
 
     },
-    {
-        title: "",
-        image: "/images/large-quadcopter.jpeg",
-        pTag1: "This is the Pixhawk 4 Autopilot that i built, designed and programmed. It has several features. Of the most desired are the Return To Home, the long flight times (about 30 minutes), and the 4k FPV video camera.",
-        pTag2: "Here is an example video from a test flight we did: ",
-        link:  "https://youtu.be/pbIMcGK4tOE",
-        linkText: "video",
-    },
-    {
-        title: "",
-        image: "/images/3D-printers.jpeg",
-        pTag1: "I've had quite a bit of experience with 3D Printing and 3D Design/cad. I use these to create new drone frames and covers among other electric designs",
-        pTag2: "",
-        link: "", 
-    },
-    {
-        title: "",
-        image: "/images/small-super-computer.jpeg",
-        pTag1: "I also have experience with building computers, and network penetration testing. This is a picture of a super computer I built for penetration testing and other large computational needs.",
-        pTag2: "",
-        link: "", 
-    }
+    // {
+    //     title: "",
+    //     image: "/images/large-quadcopter.jpeg",
+    //     pTag1: "This is the Pixhawk 4 Autopilot that i built, designed and programmed. It has several features. Of the most desired are the Return To Home, the long flight times (about 30 minutes), and the 4k FPV video camera.",
+    //     pTag2: "Here is an example video from a test flight we did: ",
+    //     link:  "https://youtu.be/pbIMcGK4tOE",
+    //     linkText: "video",
+    // },
+    // {
+    //     title: "",
+    //     image: "/images/3D-printers.jpeg",
+    //     pTag1: "I've had quite a bit of experience with 3D Printing and 3D Design/cad. I use these to create new drone frames and covers among other electric designs",
+    //     pTag2: "",
+    //     link: "", 
+    // },
+    // {
+    //     title: "",
+    //     image: "/images/small-super-computer.jpeg",
+    //     pTag1: "I also have experience with building computers, and network penetration testing. This is a picture of a super computer I built for penetration testing and other large computational needs.",
+    //     pTag2: "",
+    //     link: "", 
+    // }
 
 ];
 
