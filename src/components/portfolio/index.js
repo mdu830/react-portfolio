@@ -19,7 +19,7 @@ function Portfolio() {
             </div>
             {portfolioItems && portfolioItems.map((i, propKey) => {
               return (
-                <Project key={propKey} image={i.image} pTag1={i.pTag1} pTag2={i.pTag2} link={i.link} linkText={i.linkText} pTag3={i.pTag3} github={i.github} />
+                <Project key={propKey} feat={i.feat} title={i.title} image={i.image} pTag1={i.pTag1} pTag2={i.pTag2} link={i.link} linkText={i.linkText} pTag3={i.pTag3} github={i.github} />
               )
             }
             )}
