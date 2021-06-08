@@ -153,6 +153,18 @@ const portfolioItems = [
 
 
     },
+    {
+        title: "Donation Connection",
+        image: "/images/donationConnection.png",
+        pTag1: "Donation Connection is a project that i contributed to. This is a MERN application allows users to create and log into accounts, then donate or pick-up food in their area.",
+        pTag2: "Here is a link to ",
+        link: "https://donation-connection.herokuapp.com/",
+        linkText: "Donation Connection",
+        pTag3: "Github repository: ",
+        github: "https://github.com/kmh8827/DonationConnection"
+
+
+    },
     // {
     //     title: "",
     //     image: "/images/large-quadcopter.jpeg",
