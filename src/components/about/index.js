@@ -31,6 +31,11 @@ function About() {
                   passionate about developing apps focused on quality end-user experience, along with,
                   more efficient application delivery.
                 </p>
+                {/* <p>
+                  It is of the utmost importance, to make applications that are dependable for the user 
+                  and easy to understand. Passionate about a visually pleasing experience along with 
+                  dependable backend functionality. 
+                </p> */}
               </div>
             </div>
           </div>
