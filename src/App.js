@@ -8,7 +8,6 @@ import About from './components/about/index';
 import Portfolio from './components/portfolio/index'
 import Contact from './components/contact'
 
-import Header from './components/header/header';
 import Footer from './components/footer/footer'
 
 
@@ -17,7 +16,6 @@ function App() {
     <>
 
     <Router basename="/react-portfolio">
-    <Header />
       {/* <Route exact path="/about">
           <About />
       </Route>

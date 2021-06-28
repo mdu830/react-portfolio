@@ -1,6 +1,8 @@
+import Header from '../header/header';
 import small from './images/small.jpg'
 import styled, { keyframes } from 'styled-components'
 import { rotateInDownRight } from 'react-animations'
+// icons
 import css from './techIcons/css3.svg'
 import html from './techIcons/html5-original.svg'
 import javascript from './techIcons/javascript.svg'
@@ -30,6 +32,7 @@ const Animate = styled.div`animation: 1s ${keyframes`${rotateInDownRight}`} `;
 function About() {
   return (
     <div>
+      <Header />
       <Animate>
         <article className="media m-5 mt-5 mb-4 bord">
           <div className="media-body m-1">
@@ -74,7 +77,7 @@ function About() {
                 <div className="col-md-8 mt-5 mb-5">
                   <h3>Skills and Technologies</h3>
                 </div>
-                <div className="row pb-3 justify-content-center">
+                <div className="row pl-3 pr-3 pb-3 justify-content-center">
                   <img className="techIcon m-2" alt="HTML" src={html}></img>
                   <img className="techIcon m-2" alt="CSS" src={css}></img>
                   <img className="techIcon m-2" alt="Javascript" src={javascript}></img>
