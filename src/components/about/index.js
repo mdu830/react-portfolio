@@ -50,7 +50,7 @@ function About() {
                   <p>
                     Full stack web developer, proficient in front-end and back-end web development to
                     provide an improved end-user experience with web-application and other software
-                    platforms. Earned a certificate in Full Stack Web Development from University of North
+                    platforms. Earned a certificate in Full Stack Web Development with Honors (4.0 GPA) from University of North
                     Carolina, Chapel Hill Programming Bootcamp. Innovative problem-solver who is
                     passionate about developing apps focused on quality end-user experience, along with,
                     more efficient application delivery.
