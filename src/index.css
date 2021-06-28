@@ -37,6 +37,11 @@ article {
     /* border-radius: 9px; */
 }
 
+.techIcon {
+    height: 60px;
+    width: auto;
+}
+
 .starIcon {
     width: 20px;
     height: 20px;
@@ -44,6 +49,8 @@ article {
 
 h3 {
     font-family: concert one;
+    color: rgb(23, 167, 23);
+
 }
 h5 {
     font-family: concert one;
@@ -77,6 +84,7 @@ p {
 }
 
 .ico {
+    padding-top: 30px;
     width: 40px;
     height: auto;
 }

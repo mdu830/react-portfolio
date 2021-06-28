@@ -11,7 +11,7 @@ function Contact() {
           <div className="container mr-n3">
             <div className="row">
               <div className="col-9">
-                <h5 className="title mt-4 mb-4">Contact</h5>
+                <h5 className="title ml-2 mt-5 mb-4">Contact</h5>
               </div>
               <div className="col-3">
                 <a href="https://github.com/mdu830"><img className="ico mt-3" alt="Github" src={`${process.env.PUBLIC_URL}/assets/icons/github.png`}></img></a>

@@ -14,7 +14,7 @@ function Portfolio() {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <h5 className="title mt-4 mb-4">Portfolio</h5>
+                <h5 className="title ml-3 mt-5 mb-4">Portfolio</h5>
               </div>
             </div>
             {portfolioItems && portfolioItems.map((i, propKey) => {
