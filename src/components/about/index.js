@@ -1,7 +1,7 @@
 import Header from '../header/header';
 import small from './images/small.jpg'
 import styled, { keyframes } from 'styled-components'
-import { rotateInDownRight } from 'react-animations'
+import { flipInX } from 'react-animations'
 // icons
 import css from './techIcons/css3.svg'
 import html from './techIcons/html5-original.svg'
@@ -27,13 +27,15 @@ import raspberryPi from './techIcons/raspberrypi-original-wordmark.svg'
 import arduino from './techIcons/arduino-original-wordmark.svg'
 import ssh from './techIcons/ssh-original-wordmark.svg'
 
-const Animate = styled.div`animation: 1s ${keyframes`${rotateInDownRight}`} `;
+const Animate1 = styled.div`animation: 1s ${keyframes`${flipInX}`} `;
+const Animate2 = styled.div`animation: 1.5s ${keyframes`${flipInX}`} `;
+
 
 function About() {
   return (
     <div>
       <Header />
-      <Animate>
+      <Animate1>
         <article className="media m-5 mt-5 mb-4 bord">
           <div className="media-body m-1">
             <div className="container">
@@ -63,9 +65,9 @@ function About() {
             </div>
           </div>
         </article>
-      </Animate>
+      </Animate1>
 
-      <Animate>
+      <Animate2>
         <article className="media m-5 mt-5 mb-4 bord">
           <div className="media-body m-1">
             <div className="container">
@@ -106,7 +108,7 @@ function About() {
             </div>
           </div>
         </article>
-      </Animate>
+      </Animate2>
     </div>
 
   );

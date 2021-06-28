@@ -1,8 +1,8 @@
 import Header from '../header/header';
 import styled, { keyframes } from 'styled-components'
-import { flipInX } from 'react-animations'
+import { rotateInDownRight } from 'react-animations'
 
-const Animate = styled.div`animation: 1s ${keyframes`${flipInX}`} `;
+const Animate = styled.div`animation: 1s ${keyframes`${rotateInDownRight}`} `;
 
 function Contact() {
   return (
