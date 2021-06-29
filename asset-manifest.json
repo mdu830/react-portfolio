@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.81f85638.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.183e4a4a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.183e4a4a.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.c59a9bd1.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.6fe19aec.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.6fe19aec.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.dfd4cbd8.chunk.js": "/react-portfolio/static/js/2.dfd4cbd8.chunk.js",
-    "static/js/2.dfd4cbd8.chunk.js.map": "/react-portfolio/static/js/2.dfd4cbd8.chunk.js.map",
+    "static/js/2.4eb64ba4.chunk.js": "/react-portfolio/static/js/2.4eb64ba4.chunk.js",
+    "static/js/2.4eb64ba4.chunk.js.map": "/react-portfolio/static/js/2.4eb64ba4.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/react-portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.81f85638.chunk.css.map": "/react-portfolio/static/css/main.81f85638.chunk.css.map",
-    "static/js/2.dfd4cbd8.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.dfd4cbd8.chunk.js.LICENSE.txt",
+    "static/css/main.c59a9bd1.chunk.css.map": "/react-portfolio/static/css/main.c59a9bd1.chunk.css.map",
+    "static/js/2.4eb64ba4.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4eb64ba4.chunk.js.LICENSE.txt",
     "static/media/arduino-original-wordmark.588b9ea5.svg": "/react-portfolio/static/media/arduino-original-wordmark.588b9ea5.svg",
     "static/media/bootstrap-plain-wordmark.63ab1545.svg": "/react-portfolio/static/media/bootstrap-plain-wordmark.63ab1545.svg",
     "static/media/chrome-original-wordmark.7f0e8266.svg": "/react-portfolio/static/media/chrome-original-wordmark.7f0e8266.svg",
@@ -41,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.dfd4cbd8.chunk.js",
-    "static/css/main.81f85638.chunk.css",
-    "static/js/main.183e4a4a.chunk.js"
+    "static/js/2.4eb64ba4.chunk.js",
+    "static/css/main.c59a9bd1.chunk.css",
+    "static/js/main.6fe19aec.chunk.js"
   ]
 }
