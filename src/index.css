@@ -4,7 +4,7 @@
     position: relative;
     min-height: 100%;
 } */
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
 
 body {
     width: 100%;
@@ -17,9 +17,8 @@ body {
 }
 
 .navText {
-    font-family: concert one;
-    font-size: x-large;
-
+    font-family: 'Jura', sans-serif;
+    font-weight: bolder;
 }
 
 article {
@@ -48,18 +47,18 @@ article {
 }
 
 h3 {
-    font-family: concert one;
+    font-family: 'Jura', sans-serif;
     color: rgb(23, 167, 23);
 
 }
 h5 {
-    font-family: concert one;
+    font-family: 'Jura', sans-serif;
     color: rgb(23, 167, 23);
    
 }
 
 h6 {
-    font-family: concert one;
+    font-family: 'Jura', sans-serif;
     /* color: rgb(23, 167, 23); */
    
 }
@@ -77,7 +76,7 @@ h6 {
 }
 
 p {
-    font-family: concert one;
+    font-family: 'Jura', sans-serif;
     font-size: medium;
     color: rgb(66, 66, 66);
 
