@@ -47,7 +47,7 @@ article {
 }
 
 .borderr {
-    border: 3px solid darkgray;
+    border: 2px solid darkgray;
     /* border-radius: 9px; */
 }
 
@@ -109,6 +109,12 @@ p {
     
 }
 
+.footerContainer {
+    background-color: rgba(220, 220, 220, 0.726);
+    /* height: 33px; */
+    width: auto;
+}
+
 /* Pseudo Classes */
 
 .navText:hover {
@@ -119,12 +125,6 @@ p {
 
 .navText:active {
     background-color: rgba(194, 194, 194, 0.534);
-}
-
-.footerContainer {
-    background-color: rgba(220, 220, 220, 0.726);
-    height: 33px;
-    width: auto;
 }
 
 img:hover {
