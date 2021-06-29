@@ -40,7 +40,7 @@ function About() {
       <Header />
       <Animate3>
         <article className="row pageTitle justify-content-center">
-          <h5 className="title mt-5 mb-4">About Me</h5>
+          <h5 className="title mt-5 mb-n1">About Me</h5>
         </article>
       </Animate3>
       <Animate1>

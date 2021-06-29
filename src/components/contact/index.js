@@ -12,7 +12,7 @@ function Contact() {
       <Header />
       <Animate2>
         <article className="row pageTitle justify-content-center">
-          <h5 className="title mt-5 mb-4">Contact</h5>
+          <h5 className="title mt-5 mb-n1">Contact</h5>
         </article>
       </Animate2>
       <Animate>
