@@ -15,23 +15,17 @@ function Portfolio() {
     <div>
       <Header />
 
-      <article className="media m-5 mt-5 mb-4 bord box">
-        <div className="media-body m-1">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <h5 className="title ml-3 mt-5 mb-4">Portfolio</h5>
-              </div>
-            </div>
-            {portfolioItems && portfolioItems.map((i, propKey) => {
-              return (
-                <Animate><Project key={propKey} feat={i.feat} title={i.title} image={i.image} pTag1={i.pTag1} pTag2={i.pTag2} link={i.link} linkText={i.linkText} pTag3={i.pTag3} github={i.github} /></Animate>
-              )
-            }
-            )}
-          </div>
-        </div>
+      <article className="row pageTitle justify-content-center">
+        <h5 className="title ml-3 mt-5 mb-4">Portfolio</h5>
       </article>
+
+      {portfolioItems && portfolioItems.map((i, propKey) => {
+        return (
+          <Animate><Project key={propKey} feat={i.feat} title={i.title} image={i.image} pTag1={i.pTag1} pTag2={i.pTag2} link={i.link} linkText={i.linkText} pTag3={i.pTag3} github={i.github} /></Animate>
+        )
+      }
+      )}
+
 
     </div>
   )
