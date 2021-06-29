@@ -16,9 +16,14 @@ body {
 
 }
 
+.navbar {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+}
+
 .navText {
     font-family: 'Jura', sans-serif;
-    font-weight: bolder;
+    font-size: larger;
+    /* font-weight: bolder; */
 }
 
 article {
@@ -98,12 +103,12 @@ p {
 
 .navText:hover {
     background-color: rgb(95, 95, 95);
-    border-radius: 18px;
+    border-radius: 9px;
     
 }
 
 .navText:active {
-    background-color: rgb(23, 167, 23);
+    background-color: rgba(194, 194, 194, 0.534);
 }
 
 .footerContainer {
@@ -113,7 +118,7 @@ p {
 }
 
 img:hover {
-    background-color: rgb(23, 167, 23);
+    background-color: rgba(194, 194, 194, 0.534);
 
 }
 
