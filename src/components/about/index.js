@@ -1,7 +1,7 @@
 import Header from '../header/header';
 import small from './images/small.jpg'
 import styled, { keyframes } from 'styled-components'
-import { fadeInDown } from 'react-animations'
+import { fadeInDown, fadeIn } from 'react-animations'
 // icons
 import css from './techIcons/css3.svg'
 import html from './techIcons/html5-original.svg'
@@ -30,20 +30,23 @@ import ssh from './techIcons/ssh-original-wordmark.svg'
 const Animate1 = styled.div`animation: 1s ${keyframes`${fadeInDown}`} `;
 const Animate2 = styled.div`animation: 1.3s ${keyframes`${fadeInDown}`} `;
 
+const Animate3 = styled.div`animation: 3.5s ${keyframes`${fadeIn}`} `;
+
+
 
 function About() {
   return (
     <div>
       <Header />
+      <Animate3>
+        <article className="row pageTitle justify-content-center">
+          <h5 className="title ml-3 mt-5 mb-4">About Me</h5>
+        </article>
+      </Animate3>
       <Animate1>
         <article className="media m-5 mt-5 mb-4 bord box">
           <div className="media-body m-1">
-            <div className="container">
-              <div className="row">
-                <div className="col-sm-12">
-                  <h5 className="title ml-3 mt-5 mb-4">About Me</h5>
-                </div>
-              </div>
+            <div className="container mt-5">
 
               <div className="row">
                 <div className="col-md-4 mb-3">

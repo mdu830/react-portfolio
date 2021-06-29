@@ -26,6 +26,10 @@ body {
     /* font-weight: bolder; */
 }
 
+.pageTitle {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 article {
     background-color: gainsboro;
      
@@ -68,7 +72,7 @@ h3 {
 }
 h5 {
     font-family: 'Jura', sans-serif;
-    color: rgb(23, 167, 23);
+    color: rgb(255, 255, 255);
    
 }
 
@@ -79,7 +83,13 @@ h6 {
 }
 
 .title {
-    font-size: 42px; 
+    font-size: 62px; 
+    text-shadow:    
+    -1px -1px 0 rgba(255, 255, 255, 0),
+    1px 1px 0 rgba(255, 255, 255, 0.25),
+    1px 1px 3px rgba(255, 255, 255, 0.25),
+    2px 2px 8px rgba(0, 0, 0, 0.226),
+    3px 6px 6px rgba(0, 0, 0, 0.267);
 
 }
 
