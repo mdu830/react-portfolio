@@ -2,9 +2,11 @@ import Header from '../header/header';
 import portfolioItems from './portfolioItems'
 import Project from './projects'
 import styled, { keyframes } from 'styled-components'
-import { zoomIn } from 'react-animations'
+import { zoomIn, fadeIn } from 'react-animations'
 
 const Animate = styled.div`animation: 1s ${keyframes`${zoomIn}`} `;
+const Animate2 = styled.div`animation: 3.5s ${keyframes`${fadeIn}`} `;
+
 
 
 
@@ -14,10 +16,11 @@ function Portfolio() {
   return (
     <div>
       <Header />
-
-      <article className="row pageTitle justify-content-center">
-        <h5 className="title ml-3 mt-5 mb-4">Portfolio</h5>
-      </article>
+      <Animate2>
+        <article className="row pageTitle justify-content-center">
+          <h5 className="title ml-3 mt-5 mb-4">Portfolio</h5>
+        </article>
+      </Animate2>
 
       {portfolioItems && portfolioItems.map((i, propKey) => {
         return (
