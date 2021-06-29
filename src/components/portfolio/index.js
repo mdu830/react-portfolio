@@ -14,11 +14,11 @@ function Portfolio() {
 
   console.log(portfolioItems);
   return (
-    <div>
+    <div className="justify-content-center">
       <Header />
       <Animate2>
         <article className="row pageTitle justify-content-center">
-          <h5 className="title ml-3 mt-5 mb-4">Portfolio</h5>
+          <h5 className="title mt-5 mb-4">Portfolio</h5>
         </article>
       </Animate2>
 

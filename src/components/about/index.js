@@ -36,11 +36,11 @@ const Animate3 = styled.div`animation: 3.5s ${keyframes`${fadeIn}`} `;
 
 function About() {
   return (
-    <div>
+    <div className="justify-content-center ml-4 mr-4">
       <Header />
       <Animate3>
         <article className="row pageTitle justify-content-center">
-          <h5 className="title ml-3 mt-5 mb-4">About Me</h5>
+          <h5 className="title mt-5 mb-4">About Me</h5>
         </article>
       </Animate3>
       <Animate1>

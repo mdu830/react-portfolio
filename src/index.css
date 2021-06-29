@@ -83,7 +83,7 @@ h6 {
 }
 
 .title {
-    font-size: 62px; 
+    font-size: 48px; 
     text-shadow:    
     -1px -1px 0 rgba(255, 255, 255, 0),
     1px 1px 0 rgba(255, 255, 255, 0.25),
@@ -160,9 +160,18 @@ img:active {
 
 /* Media Queries */
 
-/* @media screen and (min-width: 768px) { 
-    body {
-        
+/* @media screen and (max-width: 768px) { 
+
+    .title {
+        font-size: 32px; 
+        text-shadow:    
+        -1px -1px 0 rgba(255, 255, 255, 0),
+        1px 1px 0 rgba(255, 255, 255, 0.25),
+        1px 1px 3px rgba(255, 255, 255, 0.25),
+        2px 2px 8px rgba(0, 0, 0, 0.226),
+        3px 6px 6px rgba(0, 0, 0, 0.267);
+    
     }
+    
 }  */
 
