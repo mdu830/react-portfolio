@@ -9,7 +9,7 @@ function Contact() {
     <div>
       <Header />
       <Animate>
-        <article className="media m-5 mt-5 mb-4 bord">
+        <article className="media m-5 mt-5 mb-4 bord box">
           <div className="media-body m-1">
             <div className="container mr-n3">
               <div className="row">

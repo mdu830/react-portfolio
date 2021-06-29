@@ -31,9 +31,19 @@ article {
      
 }
 
+.box {
+    box-shadow:
+    -1px -1px 0 rgba(255, 255, 255, 0),
+    1px 1px 0 rgba(0,0,0,.25),
+    1px 1px 3px rgba(0,0,0,.25),
+    2px 2px 8px rgba(0, 0, 0, 0.226),
+    3px 6px 6px rgba(0, 0, 0, 0.267);
+}
+
 .bord {
     border: 3px solid darkgray;
     border-radius: 9px;
+    
 }
 
 .borderr {

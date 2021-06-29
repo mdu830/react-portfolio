@@ -18,7 +18,7 @@ const Header = (props) => {
 
     return (
         <>
-            <Navbar className="fixed-top py-0" color="dark" dark expand="lg">
+            <Navbar className="fixed-top py-0 box" color="dark" dark expand="lg">
                 <NavbarBrand><Link className="nav-link navText" to="/about">Mitchell Duncan</Link></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
 
