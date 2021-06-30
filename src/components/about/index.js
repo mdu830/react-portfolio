@@ -54,7 +54,7 @@ function About() {
                 </div>
 
                 <div className="col-md-8 mb-5">
-                  <h3 className="mb-4">Full Stack Web Developer</h3>
+                  <h3 className="mb-5">Full Stack Web Developer</h3>
                   <p>
                     Full stack web developer, proficient in front-end and back-end web development to
                     provide an improved end-user experience with web-application and other software
@@ -76,7 +76,7 @@ function About() {
             <div className="container">
 
               <div className="row m-4 p-4 justify-content-center">
-                  <h3 className="mb-5">Skills and Technologies</h3>
+                <h3 className="mb-5">Skills and Technologies</h3>
 
                 <div className="row pl-3 pr-3 pb-3 justify-content-center">
                   <img className="techIcon m-2" alt="HTML" src={html}></img>
@@ -108,27 +108,29 @@ function About() {
           </div>
         </article>
       </Animate2>
-      <article className="media m-5 mt-5 mb-4 bord box">
-        <div className="media-body m-1">
-          <div className="container mt-5">
+      <Animate2>
+        <article className="media m-5 mt-5 mb-4 bord box">
+          <div className="media-body m-1">
+            <div className="container mt-5">
 
-            <div className="row m-4 p-4 justify-content-center">
-              <h3 className="mb-5">Other Skills and interests</h3>
+              <div className="row m-4 justify-content-center">
+                <h3 className="mb-4">Other Skills and interests</h3>
 
-              <p>
-                In my free time, I enjoy designing, building and flying autopilot drones. 
-                I design the new parts and covers with autocad, then
-                create the designs with my 3D Printers. I have had plenty of experience with FDM (fused deposition modeling)
-                and SLA (Stereolithography) 3D printing. 
-              </p>
-              <p>
-                I've also been a avid guitar player for the last 14 years I love playing bluesy super sonic music like Jimi Hendrix, Cream, Stevie Ray Vahn, etc.
-                I've played in a few different groups over the years, playing shows and jamming around.
-              </p>
+                <p className="p-3">
+                  In my free time, I enjoy designing, building and flying autopilot drones.
+                  I design the new parts and covers with autocad, then
+                  create the designs with my 3D Printers. I have had plenty of experience with FDM (fused deposition modeling)
+                  and SLA (Stereolithography) 3D printing.
+                </p>
+                <p className="p-3">
+                  I've also been a avid guitar player for the last 14 years I love playing bluesy super sonic music like Jimi Hendrix, Cream, Stevie Ray Vahn, etc.
+                  I've played in a few different groups over the years, playing shows, jamming and creating new music.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
+      </Animate2>
     </div>
 
   );
