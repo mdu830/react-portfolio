@@ -20,7 +20,7 @@ function Contact() {
           <div className="media-body m-1">
             <div className="container">
               <div className="row justify-content-center mt-5">
-                <h3 className="text-center cardTitle">If you have any questions or would like to get in contact with me here is my contact information: </h3>
+                <h3 className="text-center ml-4 mr-4 cardTitle">If you have any questions or would like to get in contact with me here is my contact information: </h3>
 
               </div>
               <div className="row mt-5 justify-content-center">
