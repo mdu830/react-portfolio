@@ -16,7 +16,7 @@ function Contact() {
         </article>
       </Animate2>
       <Animate>
-        <article className="media m-5 mt-5 mb-4 bord box">
+        <article className="media m-4 mt-5 mb-4 bord box">
           <div className="media-body m-1">
             <div className="container">
               <div className="row justify-content-center mt-5">
