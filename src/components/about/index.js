@@ -44,17 +44,17 @@ function About() {
         </article>
       </Animate3>
       <Animate1>
-        <article className="media m-5 mt-5 mb-4 bord box">
+        <article className="media mt-5 mb-4 bord box">
           <div className="media-body m-1">
             <div className="container mt-5">
 
               <div className="row">
-                <div className="col-md-4 mb-3">
+                <div className="col-md-4 mt-2 mb-3">
                   <img src={small} alt="Mitchell" title="Mitchell" className="img-fluid img-thumbnail h-auto"></img>
                 </div>
 
                 <div className="col-md-8 mb-5">
-                  <h3 className="mb-5">Full Stack Web Developer</h3>
+                  <h3 className="mb-5 cardTitle">Full Stack Web Developer</h3>
                   <p>
                     Full stack web developer, proficient in front-end and back-end web development to
                     provide an improved end-user experience with web-application and other software
@@ -71,37 +71,37 @@ function About() {
       </Animate1>
 
       <Animate2>
-        <article className="media m-5 mt-5 mb-4 bord box">
+        <article className="media mt-5 mb-4 bord box">
           <div className="media-body m-1">
             <div className="container">
 
               <div className="row m-4 p-4 justify-content-center">
-                <h3 className="mb-5">Skills and Technologies</h3>
+                <h3 className="mb-5 cardTitle">Skills and Technologies</h3>
 
-                <div className="row pl-3 pr-3 pb-3 justify-content-center">
-                  <img className="techIcon m-2" alt="HTML" src={html}></img>
-                  <img className="techIcon m-2" alt="CSS" src={css}></img>
-                  <img className="techIcon m-2" alt="Javascript" src={javascript}></img>
-                  <img className="techIcon m-2" alt="jQuery" src={jquery}></img>
-                  <img className="techIcon m-2" alt="Node.js" src={node}></img>
-                  <img className="techIcon m-2" alt="Node Package Manager" src={npm}></img>
-                  <img className="techIcon m-2" alt="mySQL" src={mysql}></img>
-                  <img className="techIcon m-2" alt="Sequelize" src={sequelize}></img>
-                  <img className="techIcon m-2" alt="Express" src={express}></img>
-                  <img className="techIcon m-2" alt="React" src={reactSvg}></img>
-                  <img className="techIcon m-2" alt="Bootstrap" src={bootstrapSvg}></img>
-                  <img className="techIcon m-2" alt="MongoDB" src={mongodbSvg}></img>
-                  <img className="techIcon m-2" alt="Yarn" src={yarnSvg}></img>
-                  <img className="techIcon m-2" alt="Visual Studio Code" src={vscode}></img>
-                  <img className="techIcon m-2" alt="Heroku" src={heroku}></img>
-                  <img className="techIcon m-2" alt="git" src={git}></img>
-                  <img className="techIcon m-2" alt="Github" src={github}></img>
-                  <img className="techIcon m-2" alt="Gitlab" src={gitlab}></img>
-                  <img className="techIcon m-2" alt="Google Chrome" src={chrome}></img>
-                  <img className="techIcon m-2" alt="Ubuntu Linux" src={ubuntu}></img>
-                  <img className="techIcon m-2" alt="Raspberry Pi" src={raspberryPi}></img>
-                  <img className="techIcon m-2" alt="Arduino" src={arduino}></img>
-                  <img className="techIcon m-2" alt="SSH" src={ssh}></img>
+                <div className="row pl-2 pr-2 pb-2 justify-content-center">
+                  <img className="techIcon m-1" alt="HTML" src={html}></img>
+                  <img className="techIcon m-1" alt="CSS" src={css}></img>
+                  <img className="techIcon m-1" alt="Javascript" src={javascript}></img>
+                  <img className="techIcon m-1" alt="jQuery" src={jquery}></img>
+                  <img className="techIcon m-1" alt="Node.js" src={node}></img>
+                  <img className="techIcon m-1" alt="Node Package Manager" src={npm}></img>
+                  <img className="techIcon m-1" alt="mySQL" src={mysql}></img>
+                  <img className="techIcon m-1" alt="Sequelize" src={sequelize}></img>
+                  <img className="techIcon m-1" alt="Express" src={express}></img>
+                  <img className="techIcon m-1" alt="React" src={reactSvg}></img>
+                  <img className="techIcon m-1" alt="Bootstrap" src={bootstrapSvg}></img>
+                  <img className="techIcon m-1" alt="MongoDB" src={mongodbSvg}></img>
+                  <img className="techIcon m-1" alt="Yarn" src={yarnSvg}></img>
+                  <img className="techIcon m-1" alt="Visual Studio Code" src={vscode}></img>
+                  <img className="techIcon m-1" alt="Heroku" src={heroku}></img>
+                  <img className="techIcon m-1" alt="git" src={git}></img>
+                  <img className="techIcon m-1" alt="Github" src={github}></img>
+                  <img className="techIcon m-1" alt="Gitlab" src={gitlab}></img>
+                  <img className="techIcon m-1" alt="Google Chrome" src={chrome}></img>
+                  <img className="techIcon m-1" alt="Ubuntu Linux" src={ubuntu}></img>
+                  <img className="techIcon m-1" alt="Raspberry Pi" src={raspberryPi}></img>
+                  <img className="techIcon m-1" alt="Arduino" src={arduino}></img>
+                  <img className="techIcon m-1" alt="SSH" src={ssh}></img>
                 </div>
               </div>
             </div>
@@ -109,12 +109,12 @@ function About() {
         </article>
       </Animate2>
       <Animate2>
-        <article className="media m-5 mt-5 mb-4 bord box">
+        <article className="media mt-5 mb-5 bord box">
           <div className="media-body m-1">
             <div className="container mt-5">
 
               <div className="row m-4 justify-content-center">
-                <h3 className="mb-4">Other Skills and interests</h3>
+                <h3 className="mb-4 cardTitle">Other Skills and interests</h3>
 
                 <p className="p-3">
                   In my free time, I enjoy designing, building and flying autopilot drones.

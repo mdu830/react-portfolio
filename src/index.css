@@ -93,6 +93,10 @@ h6 {
 
 }
 
+.cardTitle {
+    font-size: 30px;
+}
+
 .img-thumbnail {
     width: 250px;
     background-color: gray; 
@@ -110,6 +114,11 @@ p {
 .ico {
     padding-top: 30px;
     width: 40px;
+    height: auto;
+}
+
+.starIcon {
+    width: 20px;
     height: auto;
 }
 
@@ -160,10 +169,10 @@ img:active {
 
 /* Media Queries */
 
-/* @media screen and (max-width: 768px) { 
+@media screen and (max-width: 551px) { 
 
     .title {
-        font-size: 32px; 
+        font-size: 38px; 
         text-shadow:    
         -1px -1px 0 rgba(255, 255, 255, 0),
         1px 1px 0 rgba(255, 255, 255, 0.25),
@@ -172,6 +181,40 @@ img:active {
         3px 6px 6px rgba(0, 0, 0, 0.267);
     
     }
+
+    .cardTitle {
+        font-size: 17px;
+    }
+
+    .img-thumbnail {
+        width: 200px;
+        background-color: gray; 
+        float: left;
     
-}  */
+    }
+
+    h3 {
+        font-size: 50%;
+    
+    }
+
+    p {
+        font-family: 'Jura', sans-serif;
+        font-size: 13px;
+        color: rgb(66, 66, 66);
+        
+    
+    }
+
+    .techIcon {
+        height: 30px;
+        width: auto;
+    }
+
+    .starIcon {
+        width: 10px;
+        height: auto;
+        margin-top: -16px;
+    }
+} 
 
