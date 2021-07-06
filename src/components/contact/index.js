@@ -20,12 +20,12 @@ function Contact() {
           <div className="media-body m-1">
             <div className="container">
               <div className="row justify-content-center mt-5">
-                <h3 className="text-center">If you have any questions or would like to get in contact with me here is my contact information: </h3>
+                <h3 className="text-center cardTitle">If you have any questions or would like to get in contact with me here is my contact information: </h3>
 
               </div>
-              <div className="row justify-content-center">
+              <div className="row mt-5 justify-content-center">
                 <div className="col-4-md">
-                  <h6 className="m-5">Email: <a className="bsLink" href="mailto:mdu830@yahoo.com">mdu830@yahoo.com</a></h6>
+                  <p className="m-4">Email: <a className="bsLink" href="mailto:mdu830@yahoo.com">mdu830@yahoo.com</a></p>
                 </div>
                 <div className="col-4-md">
                   <a href="https://github.com/mdu830"><img className="ico mt-1 ml-3 mr-3" alt="Github" src={`${process.env.PUBLIC_URL}/assets/icons/github.png`}></img></a>
@@ -33,7 +33,7 @@ function Contact() {
                   <a href="mailto:mdu830@yahoo.com"><img className="ico mt-1 ml-3 mr-3" alt="Email" src={`${process.env.PUBLIC_URL}/assets/icons/email.png`}></img></a>
                 </div>
                 <div className="col-4-md">
-                  <h6 className="m-5">Phone: <a href="Phone Number" className="bsLink">(252) 207-7476</a></h6>
+                  <p className="m-4">Phone: <a href="Phone Number" className="bsLink">(252) 207-7476</a></p>
                 </div>
               </div>
             </div>

@@ -112,7 +112,7 @@ p {
 }
 
 .ico {
-    padding-top: 30px;
+    padding-top: 12px;
     width: 40px;
     height: auto;
 }
@@ -190,11 +190,6 @@ img:active {
         width: 200px;
         background-color: gray; 
         float: left;
-    
-    }
-
-    h3 {
-        font-size: 50%;
     
     }
 
