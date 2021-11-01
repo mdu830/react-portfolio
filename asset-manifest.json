@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.6dc9c746.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.dd09ebf5.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.dd09ebf5.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.8645a0ca.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8645a0ca.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.081f420c.chunk.css": "/react-portfolio/static/css/2.081f420c.chunk.css",
@@ -31,7 +31,7 @@
     "static/media/raspberrypi-original-wordmark.7a743c43.svg": "/react-portfolio/static/media/raspberrypi-original-wordmark.7a743c43.svg",
     "static/media/react-original-wordmark.7c837586.svg": "/react-portfolio/static/media/react-original-wordmark.7c837586.svg",
     "static/media/sequelize-original-wordmark.2744dd0c.svg": "/react-portfolio/static/media/sequelize-original-wordmark.2744dd0c.svg",
-    "static/media/small.3c7191dc.jpg": "/react-portfolio/static/media/small.3c7191dc.jpg",
+    "static/media/small.d49324c0.jpg": "/react-portfolio/static/media/small.d49324c0.jpg",
     "static/media/ssh-original-wordmark.64c4d908.svg": "/react-portfolio/static/media/ssh-original-wordmark.64c4d908.svg",
     "static/media/ubuntu-plain-wordmark.c86bd93a.svg": "/react-portfolio/static/media/ubuntu-plain-wordmark.c86bd93a.svg",
     "static/media/index.css": "/react-portfolio/static/media/vector.075bcd5f.jpg",
@@ -43,6 +43,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.4eb64ba4.chunk.js",
     "static/css/main.6dc9c746.chunk.css",
-    "static/js/main.dd09ebf5.chunk.js"
+    "static/js/main.8645a0ca.chunk.js"
   ]
 }
