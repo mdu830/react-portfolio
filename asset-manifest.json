@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.6dc9c746.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.8f8f91e8.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.8f8f91e8.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.dd09ebf5.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.dd09ebf5.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
-    "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
+    "static/css/2.081f420c.chunk.css": "/react-portfolio/static/css/2.081f420c.chunk.css",
     "static/js/2.4eb64ba4.chunk.js": "/react-portfolio/static/js/2.4eb64ba4.chunk.js",
     "static/js/2.4eb64ba4.chunk.js.map": "/react-portfolio/static/js/2.4eb64ba4.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/react-portfolio/static/css/2.150d169a.chunk.css.map",
+    "static/css/2.081f420c.chunk.css.map": "/react-portfolio/static/css/2.081f420c.chunk.css.map",
     "static/css/main.6dc9c746.chunk.css.map": "/react-portfolio/static/css/main.6dc9c746.chunk.css.map",
     "static/js/2.4eb64ba4.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4eb64ba4.chunk.js.LICENSE.txt",
     "static/media/arduino-original-wordmark.588b9ea5.svg": "/react-portfolio/static/media/arduino-original-wordmark.588b9ea5.svg",
@@ -31,7 +31,7 @@
     "static/media/raspberrypi-original-wordmark.7a743c43.svg": "/react-portfolio/static/media/raspberrypi-original-wordmark.7a743c43.svg",
     "static/media/react-original-wordmark.7c837586.svg": "/react-portfolio/static/media/react-original-wordmark.7c837586.svg",
     "static/media/sequelize-original-wordmark.2744dd0c.svg": "/react-portfolio/static/media/sequelize-original-wordmark.2744dd0c.svg",
-    "static/media/small.3b4b435e.jpg": "/react-portfolio/static/media/small.3b4b435e.jpg",
+    "static/media/small.3c7191dc.jpg": "/react-portfolio/static/media/small.3c7191dc.jpg",
     "static/media/ssh-original-wordmark.64c4d908.svg": "/react-portfolio/static/media/ssh-original-wordmark.64c4d908.svg",
     "static/media/ubuntu-plain-wordmark.c86bd93a.svg": "/react-portfolio/static/media/ubuntu-plain-wordmark.c86bd93a.svg",
     "static/media/index.css": "/react-portfolio/static/media/vector.075bcd5f.jpg",
@@ -40,9 +40,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
-    "static/css/2.150d169a.chunk.css",
+    "static/css/2.081f420c.chunk.css",
     "static/js/2.4eb64ba4.chunk.js",
     "static/css/main.6dc9c746.chunk.css",
-    "static/js/main.8f8f91e8.chunk.js"
+    "static/js/main.dd09ebf5.chunk.js"
   ]
 }
