@@ -123,8 +123,8 @@ function About() {
                   and SLA (Stereolithography) 3D printing.
                 </p>
                 <p className="p-3">
-                  I've also been a avid guitar player for the last 14 years I love playing bluesy super sonic music like Jimi Hendrix, Cream, Stevie Ray Vahn, etc.
-                  I've played in a few different groups over the years, playing shows, jamming and creating new music.
+                  I've also been a avid guitar player for the last 14 years I love playing bluesy music like Jimi Hendrix, Cream, Stevie Ray Vahn, etc.
+                  I've played in a few different groups over the years, playing shows, and creating new music.
                 </p>
               </div>
             </div>
